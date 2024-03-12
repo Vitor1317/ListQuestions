@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Meu Gabarito</h1>
+        <div class="input-container">
+            <select id="select-type">
+                <option class="none">Escolha</option>
+                <option value="true-or-false">Certo ou Errado</option>
+                <option value="abcde">ABCDE</option>
+            </select>
+            <select class="none" id="select-ask-true-or-false">
+                <option value="Certo">Certo</option>
+                <option value="Errado">Errado</option>
+            </select>
+            <select class="none" id="select-ask-abcde">
+                <option value="a">a</option>
+                <option value="b">b</option>
+                <option value="c">c</option>
+                <option value="d">d</option>
+                <option value="e">e</option>
+            </select>
+            <button id="ask-button">Responda</button>
+        </div>
+        <ol id="ask-list">
+    
+        </ol>
+    </div>
+    <script type="module" src="./script.js"></script>
+</body>
+</html>
